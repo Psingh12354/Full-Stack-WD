@@ -1,4 +1,4 @@
-<h1><b><i>Full Stack WD</i></b></h1>
+<h1 align=center><b><i>Full Stack WD</i></b></h1>
 
 ## Basic Git Commands
 - At a convenient location on your computer, create a folder named git-test.
