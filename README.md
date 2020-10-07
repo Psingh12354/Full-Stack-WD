@@ -110,6 +110,7 @@ git checkout -- index.html
 
 ## Setting up an Online Git repository
 - Sign up for an account either at Bitbucket (https://bitbucket.org) or GitHub (https://github.com).
+
 - Then set up an online Git repository named **git-test.** Note the URL of your online Git repository. Note that private repositories on GitHub requires a paid account, and is not available for free accounts.
 
 Set the local Git repository to set its remote origin
@@ -146,16 +147,18 @@ npm init
 ```
 - Follow along the prompts and answer the questions as follows: accept the default values for most of the entries, except set the entry point to index.html
   This should create a package.json file in your **git-test** folder.
+  
 - Installing an NPM Module
 
 - Install an NPM module, lite-server, that allows you to run a Node.js based development web server and serve up your project files. To do this, type the following at the prompt:
+
 ```
 npm install lite-server --save-dev
 ```
 - You can check out more documentation on lite-server [here](https://github.com/johnpapa/lite-server).
 - Next, open package.json in your editor and modify it as shown below. Note the addition of two lines, line 7 and line 9.
 
-![](https://github.com/Psingh12354/Full-Stack-WD/blob/main/Weak%201/index.html)
+![](https://github.com/Psingh12354/Full-Stack-WD/blob/main/Weak%201/Node%20init.PNG)
 
 ```
 {
@@ -180,3 +183,23 @@ npm install lite-server --save-dev
   }
 }
 ```
+
+- Next, start the development server by typing the following at the prompt:
+```
+npm start
+```
+
+- This should open your index.html page in your default browser.
+
+- If you now open the index.html page in an editor and make changes and save, the browser should immediately refresh to reflect the changes.
+
+Setting up .gitignore
+
+- Next, create a file in your project directory named **.gitignore** (Note: the name starts with a period)Then, add the following to the .gitignore file
+
+```
+node_modules
+```
+
+- Then do a git commit and push the changes to the online repository. You will note that the node_modules folder will not be added to the commit, and will not be uploaded to the repository.
+
