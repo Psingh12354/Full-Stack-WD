@@ -232,6 +232,9 @@ node_modules
 npm install bootstrap@4.0.0 --save
 npm install jquery@3.3.1 popper.js@1.12.9 --save
 ```
+### Installation Screenshot
+
+![](https://github.com/Psingh12354/Full-Stack-WD/blob/main/install%20bootstap.PNG)
 
 - This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap->dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.
 - Open your project folder in your editor, and then open the index.html file in the conFusion folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.
